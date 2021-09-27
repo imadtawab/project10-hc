@@ -1,0 +1,160 @@
+      /* ***************************
+            Start big-screen
+   **************************** */
+   .big-screens{
+    display:none;
+  }
+  .screen-mobiles{
+    display:flex;
+    justify-content: space-between;
+    height:71px;
+
+}
+h1{
+    margin-left:30px;
+}
+.burger{
+    margin-right:30px;
+    font-size:34px;
+    margin-top:18px;
+}
+.burger:hover{
+    color:cyan;
+}
+.plus{
+    position:absolute;
+    right:30px;
+    font-size:40px; 
+}
+.plus1{
+    top:-10px;
+}
+.plus2{
+    top:-10px;
+}
+.plus3{
+    top:-10px;
+}
+input{display:none;}
+        /* ***************************
+            End big-screen
+   **************************** */
+
+.para{
+
+   position: relative;
+   padding-bottom:20px;
+}
+
+/* ***************************
+            Start main-link 
+   **************************** */
+   .mob-main-ul{
+       background-color: #1b1b1b;
+       position: absolute;
+       top:71px;
+       width: 100%;
+       display:none;
+   }
+   .mob-main-list{
+   padding:20px;
+   padding-bottom:0;
+    
+    border-bottom:2px solid #000;
+  
+    
+   }
+   .mob-main-list:hover .mob-main-link{
+    color:cyan;
+    font-weight:bold;
+}  
+ .mob-main-list:hover .plus{
+    color:cyan;
+}
+   .mob-main-list:first-child{
+    border-top:2px solid #000;
+   }
+   input:checked+ .mob-main-ul{
+    display:block;
+   }
+   .mob-main-link{
+    font-size:20px;
+   }
+   
+
+    /* ***************************
+            End main-link 
+   **************************** */
+   
+  
+  
+  
+  
+  
+     /* ***************************
+            Start sub-link 
+   **************************** */
+.mob-sub-list{
+    
+    padding-left:10px;
+
+    display:none;
+}
+
+.mob-sub-link{
+    padding:10px;
+}
+.mob-sub-link:hover a{
+    color:cyan;
+}
+input:checked+.mob-sub-list{
+   display:block;
+}
+.plus4{
+    position:absolute;
+    right:30px;
+    font-size:30px; 
+    top:3px;
+}
+.sub-plus{
+    position:relative;
+}
+.sub-plus:hover span{
+    color:cyan;
+}
+
+     /* ***************************
+            End sub-link 
+   **************************** */
+  
+  
+
+
+
+
+
+  
+      /* ***************************
+            Start sub-sub-link 
+   **************************** */
+
+   .mob-sub-sub-list{
+    
+    padding-left:10px;
+
+    display:none;
+}
+.mob-sub-sub-link{
+    padding:10px;
+    padding-left:30px;
+}
+.mob-sub-sub-link:hover a{
+    color:cyan;
+}
+input:checked+.mob-sub-sub-list{
+    display:block;
+ }
+       /* ***************************
+            End sub-sub-link 
+   **************************** */
+ 
